@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C48D3F4B286C89E800213DCC /* Ubi_MarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D3F4A286C89E800213DCC /* Ubi_MarketApp.swift */; };
+		C48D3F4B286C89E800213DCC /* UbiMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D3F4A286C89E800213DCC /* UbiMarketApp.swift */; };
 		C48D3F4D286C89E800213DCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D3F4C286C89E800213DCC /* ContentView.swift */; };
 		C48D3F4F286C89EA00213DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48D3F4E286C89EA00213DCC /* Assets.xcassets */; };
 		C48D3F52286C89EA00213DCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48D3F51286C89EA00213DCC /* Preview Assets.xcassets */; };
+		C48D3F5A286C8B3500213DCC /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D3F59286C8B3500213DCC /* ListScreen.swift */; };
+		C48D3F5D286C8B9900213DCC /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D3F5C286C8B9900213DCC /* ListRow.swift */; };
+		C48D3F5F286C8FB400213DCC /* MeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D3F5E286C8FB400213DCC /* MeScreen.swift */; };
+		C48D3F61286C8FD500213DCC /* AboutMeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D3F60286C8FD500213DCC /* AboutMeRow.swift */; };
+		C48D3F63286C931B00213DCC /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D3F62286C931B00213DCC /* RootScreen.swift */; };
+		C48D3F65286C956900213DCC /* AddItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D3F64286C956900213DCC /* AddItemScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C48D3F47286C89E800213DCC /* Ubi-Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ubi-Market.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C48D3F4A286C89E800213DCC /* Ubi_MarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ubi_MarketApp.swift; sourceTree = "<group>"; };
+		C48D3F4A286C89E800213DCC /* UbiMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbiMarketApp.swift; sourceTree = "<group>"; };
 		C48D3F4C286C89E800213DCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C48D3F4E286C89EA00213DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C48D3F51286C89EA00213DCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C48D3F59286C8B3500213DCC /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
+		C48D3F5C286C8B9900213DCC /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		C48D3F5E286C8FB400213DCC /* MeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeScreen.swift; sourceTree = "<group>"; };
+		C48D3F60286C8FD500213DCC /* AboutMeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeRow.swift; sourceTree = "<group>"; };
+		C48D3F62286C931B00213DCC /* RootScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreen.swift; sourceTree = "<group>"; };
+		C48D3F64286C956900213DCC /* AddItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +63,9 @@
 		C48D3F49286C89E800213DCC /* Ubi-Market */ = {
 			isa = PBXGroup;
 			children = (
-				C48D3F4A286C89E800213DCC /* Ubi_MarketApp.swift */,
+				C48D3F5B286C8B5D00213DCC /* Views */,
+				C48D3F58286C8A8300213DCC /* Screen */,
+				C48D3F4A286C89E800213DCC /* UbiMarketApp.swift */,
 				C48D3F4C286C89E800213DCC /* ContentView.swift */,
 				C48D3F4E286C89EA00213DCC /* Assets.xcassets */,
 				C48D3F50286C89EA00213DCC /* Preview Content */,
@@ -65,6 +79,26 @@
 				C48D3F51286C89EA00213DCC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C48D3F58286C8A8300213DCC /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C48D3F59286C8B3500213DCC /* ListScreen.swift */,
+				C48D3F5E286C8FB400213DCC /* MeScreen.swift */,
+				C48D3F62286C931B00213DCC /* RootScreen.swift */,
+				C48D3F64286C956900213DCC /* AddItemScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		C48D3F5B286C8B5D00213DCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C48D3F5C286C8B9900213DCC /* ListRow.swift */,
+				C48D3F60286C8FD500213DCC /* AboutMeRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48D3F5F286C8FB400213DCC /* MeScreen.swift in Sources */,
+				C48D3F5D286C8B9900213DCC /* ListRow.swift in Sources */,
 				C48D3F4D286C89E800213DCC /* ContentView.swift in Sources */,
-				C48D3F4B286C89E800213DCC /* Ubi_MarketApp.swift in Sources */,
+				C48D3F5A286C8B3500213DCC /* ListScreen.swift in Sources */,
+				C48D3F63286C931B00213DCC /* RootScreen.swift in Sources */,
+				C48D3F61286C8FD500213DCC /* AboutMeRow.swift in Sources */,
+				C48D3F65286C956900213DCC /* AddItemScreen.swift in Sources */,
+				C48D3F4B286C89E800213DCC /* UbiMarketApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
